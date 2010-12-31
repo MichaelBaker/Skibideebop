@@ -1,9 +1,10 @@
 # Skibideebop
 ### The programming language for cool cats and hip kittens.
 
-## Generate some skibideebop
+## Install the gem
     gem install Skibideebop
     
+## Generate some skibideebop
     require 'skibideebop'
 
     puts sing_it_daddyo!( "puts 'Hello World'" )
