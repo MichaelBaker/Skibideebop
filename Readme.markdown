@@ -2,7 +2,7 @@
 ### The programming language for cool cats and hip kittens.
 
 ## Generate some skibideebop
-    gem install skibideebop
+    gem install Skibideebop
     
     require 'skibideebop'
 
