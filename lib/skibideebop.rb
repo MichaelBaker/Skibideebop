@@ -8,7 +8,7 @@ end
 
 def sing_it_daddyo!( code )
   binary_to_scat_dictionary = Hash[ "00" => "bodiddly" , "01" => "dat" , "10" => "dwee" , "11" => "zibbidee" ]
-  return "require_relative 'skibideebop'\n\n" + code.unpack('B*')[0].gsub(/../).map { |binary| binary_to_scat_dictionary[binary] }.join( ' ' )
+  return "require 'skibideebop'\n\n" + code.unpack('B*')[0].gsub(/../).map { |binary| binary_to_scat_dictionary[binary] }.join( ' ' )
 end
 
 END {
